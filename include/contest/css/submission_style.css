@@ -1,0 +1,58 @@
+.submission_status{
+ 
+ padding: 13px;
+ background-color: #2C3542;
+ color: #ffffff;
+ font-size: 17px;
+}
+.sub_h{
+	background-color: #ffffff;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.sub_b{
+	background-color: #ffffff;
+	padding: 0px 5px 25px 5px;
+	text-align: center;
+}
+.submission_overview{
+	margin-bottom: 15px;
+}
+.test_case_td{
+	padding: 10px 15px 10px 100px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #DFDFDF;
+	border-style: solid;
+	background-color: #ffffff;
+	text-align: center;
+}
+.sorce_code{
+	width: 100%;
+	height: 170px;
+	border-color: #DFDFDF;
+	border-style: solid;
+	border-width: 2px;
+}
+.verdict_ac,.verdict_wa,.verdict_skip,.verdict_tle{
+	
+	color: #ffffff;
+	padding: 4px;
+	
+	height: 25px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+.verdict_ac{
+	background-color: #27ae60;
+}
+.verdict_wa{
+	background-color: #c0392b;
+}
+.verdict_skip{
+	background-color: #95a5a6;
+}
+.verdict_tle{
+	background-color: #d35400;
+}

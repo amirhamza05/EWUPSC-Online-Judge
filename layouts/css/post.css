@@ -1,0 +1,43 @@
+    
+ .bg{
+	 
+	border-bottom: 2px solid #989494;
+	background-color: #F4F2F2;
+	width: 100%;
+	padding:15px;
+	border-radius: 5px;
+	margin-button: 8px;
+	
+}
+
+
+
+.read {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+	margin-top: 20px;
+    margin-right: 3px;
+	margin-left: 70%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+	border-radius: 05px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 50%;
+    }
+}

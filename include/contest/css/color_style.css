@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #ecf0f1;    
+    --bg-font: #ffffff;
+    --header_bg: #2C3542;
+    --header_font: #ffffff;
+    --header_hover: #E74C3C;
+    --header_hover_font: #ffffff;
+    --menu_header: #E74C3C;
+    --menu_header_font: #ffffff;
+    --problem_ul: #364150; 
+    --problem_ul_font: #ffffff;
+}

@@ -1,0 +1,266 @@
+
+
+@import url("color_style.css");
+
+
+.border_head{
+  border-width: 2px 0px 0px 0px;
+  border-color: #E74C3C;
+  border-style: dashed;
+}
+
+.p_list{
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E7ECF1;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.timer{
+  width: 18px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.count_solve{
+  border-radius: 20px;
+  background-color: var(--bg-color);
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  padding: 3px 7px 3px 7px;
+}
+.submission_area{
+  padding: 15px;
+  border-width: 1px;
+  border-color: #E7ECF1;
+  border-style: solid;
+  border-radius: 5px;
+}
+.submit_textarea{
+  height: 300px;
+  width: 600px;
+  resize: vertical;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.submit_btn{
+  background-color: #2C3542;
+}
+.submit_btn_source{
+  background-color: #2C3542;
+  width: 300px;
+  padding: 10px;
+}
+
+.submit_btn_source:active{
+  background-color: #E74C3C;
+  border-radius: 3px;
+  border-width: 0px;
+  padding: 10px;
+}
+.submit_btn_source:hover{
+  background-color: #E74C3C;
+  padding: 10px;
+}
+.submit_btn_source:disabled{
+  background-color: #565D67;
+  padding: 10px;
+  cursor: not-allowed;
+}
+
+
+.contest_title{
+ font-size: 30px;
+ font-family: "Lucida Console", Monaco, monospace;
+
+}
+.contest_head_menu{
+  text-align: center;
+  color: #ffffff;
+  background-color: #2C3542;
+  border-radius: 0px 0px 150px 150px;
+  height: 110px;
+  padding-bottom: 3px;
+
+}
+.btn_submit_solution{
+  width: 200px;
+  height: 50px;
+  padding: 0px;
+  background-color: #2C3542;
+  font-size: 18px;
+  border-width: 0px;
+}
+.btn_submit_solution:hover{
+  width: 200px;
+  height: 50px;
+  padding: 0px;
+  background-color: #2C3542;
+  font-size: 19px;
+  border-width: 0px;
+}
+.contest_time{
+  font-size: 15px;
+}
+.dashboard_left_panel_head{
+  background-color: var(--menu_header);
+  color: #ffffff;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.dashboard_right_panel_head{
+
+}
+.problem_title{
+  font-size: 30px;
+
+}
+.problem_title_body{
+  border-width: 0px 0px 2px 0px;
+  border-color: #E7ECF1;
+  border-style: solid;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+.problem_body{
+  border-width: 1px;
+  border-color: #E7ECF1;
+  border-style: solid;
+  padding: 10px;
+  height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+    .problem_body{
+        margin-left: -15px;
+        margin-right: 10px;
+    }
+}
+.contest_problem_description{
+  padding: 5px;
+}
+.list_problem{
+  background-color: #364150;
+  padding: 13px;
+  color: #B4BCC8;
+  border-width: 0px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  border-width: 0px 0px 0px 10px;
+  border-style: solid;
+  border-color: #e74c3c;
+  margin-left: 10px;
+  border-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.list_problem a{
+  color: #e3e6ea;
+}
+.list-group-item{
+  border-radius: 0px;
+}
+.list-group{
+  border-radius: 0px;
+}
+.list_group_body{
+  background-color: var(--problem_ul);
+  border-radius: 0px;
+  border-width: 0px 0px 0px 0px;
+  border-style: dotted;
+  border-color: var(--menu_header);
+}
+.list_problem:hover{
+  background-color: #2C3542;
+}
+.submit_head{
+
+}
+.submit_body{
+  border-width: 1px;
+  border-color: #E7ECF1;
+  border-style: solid;
+  text-align: center;
+  padding: 15px;
+}
+.submit_btn{
+  background-color: #2C3542;
+  color: #ffffff;
+  padding: 5px;
+  border-width: 0px;
+  width: 200px;
+  height: 40px;
+}
+.submit_btn:disabled{
+    background-color: #596275;
+}
+.notice{
+
+}
+.glyphicon{
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+
+.header_box{
+        background-color: #414959;
+        padding-top: 25px;
+        padding-left: 15px;
+        margin-bottom: -11px;
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .box_body{
+        background-color: #EEEEEE;
+        padding: 20px;
+    }
+    .head_id{
+        background-color: #414959;
+        padding: 15px;
+        margin-left: 80px;: 
+        
+    }
+
+    .box_overview{
+        background-color: #ffffff;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+  
+
+
+
+.tab-pane>span{
+	cursor: pointer;
+}
+
+.info_header{
+	background-color: #414959;
+	padding: 15px;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+.info_title{
+	font-size: 30px;
+}
+.counter{
+	font-size: 20px;
+}
+

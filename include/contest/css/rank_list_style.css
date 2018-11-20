@@ -1,0 +1,72 @@
+.standing_pid{
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 100%;
+  padding: 1px 5px 1px 5px;
+  font-size: 16px;
+}
+
+.standing_pid:hover{
+	font-size: 17px;
+}
+.rank_table_head_td{
+	background-color: #2C3542;
+	padding: 5px;
+	border-width: 1px;
+	border-style: solid;
+	color: #ffffff;
+	text-align: center;
+	border-color: #414B59;
+}
+.problem_serial{
+	height: 50px;
+	width: 100px;
+}
+.scroll {
+  border: 0;
+  border-collapse: collapse;
+}
+
+.scroll tbody {
+  
+  width: 100%;
+  overflow-y: auto;
+  height: 800px;
+}
+.rank_table_td_pending,.rank_table_td,.rank_table_td_ac,.rank_table_td_wa,.rank_table_td_not{
+	/*padding: 5px 0px 0px 0px;*/
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	overflow: hidden;
+	text-align: center;
+	height: 100%;
+}
+.rank_table_td_black{
+  background-color: rgba(0, 0, 0, 0);
+  /*padding: 0px 25px 5px 25px;*/
+  border-radius: 0px 0px 5px 5px;
+}
+
+.rank_table_td_not{
+	 background-color: #ffffff;
+	 color: #000000;
+}
+.rank_table_td{
+	 background-color: #ffffff;
+	 color: #000000;
+}
+.rank_table_td_ac{
+	background-color: #26C281;
+	color: #ffffff;
+}
+.rank_table_td_wa{
+	background-color: #E35B5A;
+	color: #ffffff;
+}
+.rank_table_td_pending{
+	background-color: #34495e;
+	color: #ffffff;
+}
+/*contest rank list*/
+

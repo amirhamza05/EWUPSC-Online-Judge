@@ -1,0 +1,103 @@
+	table{
+		padding: 15px;
+		margin-left: 15px;
+		margin-right: 20px;
+	}
+   th{
+   	border-width: 1px;
+   	border-color: #ffffff;
+   	border-style: solid;
+   	text-align: center;
+   	padding: 15px;
+   	background-color: #C5D6B9;
+   }
+   td{
+   	background-color: #DEDEDE;
+   	border-width: 1px;
+   	border-color: #ffffff;
+   	border-style: solid;
+   	text-align: center;
+   	padding: 12px;
+   }
+   .my-stat{
+   	width: 10%;
+   }
+   .all-stat{
+   	width: 10%;
+  }
+  .prob-num{
+  	width: 5%;
+  }
+  .prob_title{
+  	text-align: left;
+  	width: 70%;
+  	font-size: 15px;
+
+  }
+  .st{
+  	background-color: #077225;
+  	border-radius: 2%;
+  	width: 80px;
+  	height: 25px;
+  	color: #ffffff;
+  }
+  span{
+  	cursor: pointer;
+  	color:#242C33;
+  }
+  span:hover{
+  	text-decoration:underline;
+  }
+
+  table{
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+   th{
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    text-align: center;
+    padding: 15px;
+    background-color: #C5D6B9;
+   }
+   td{
+    background-color: #DEDEDE;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    text-align: center;
+    padding: 12px;
+   }
+   .my-stat{
+    width: 10%;
+   }
+   .all-stat{
+    width: 10%;
+  }
+  .prob-num{
+    width: 5%;
+  }
+  .prob_title{
+    text-align: left;
+    width: 70%;
+    font-size: 15px;
+
+  }
+  .st{
+    background-color: #077225;
+    border-radius: 2%;
+    width: 80px;
+    height: 25px;
+    color: #ffffff;
+  }
+  span{
+    cursor: pointer;
+    color:#242C33;
+  }
+  span:hover{
+    text-decoration:underline;
+  }
+
+ 
